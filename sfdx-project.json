@@ -1,0 +1,26 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "43.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "producerAlias"   : "sfdx-isv",
+      "producerName"    : "Salesforce ISV Technical Enablement",
+      "projectAlias"    : "hc-starter-pack",
+      "projectName"     : "Health Cloud Starter Pack",
+      "projectType"     : "appx:single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/sfdx-isv/health-cloud-starter-pack.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.5",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}
