@@ -16,7 +16,14 @@
         "description":    "Installs demo in a Scratch Org",
         "isScratchOrg":   true,
         "scratchDefJson": "demo-scratch-def.json"
-      }
+      },
+      {
+        "orgName":        "Scratch Org Demo",
+        "alias":          "sfdx-isv_scratch-demo",
+        "description":    "Installs demo in a Scratch Org",
+        "isScratchOrg":   false,
+        "orgReqsJson":    "demo-scratch-def.json"
+      }      
     ]
   },
   "recipeStepGroups": [
