@@ -1,0 +1,14 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["preprocess.out/Account.json"]
+    },
+    {
+        "sobject": "Case",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": ["preprocess.out/CarePlan.json"]
+    }
+]
